@@ -1,7 +1,8 @@
 
 
-let userSelection = prompt("rock, paper or scissors?"); //Gets the users selection
-let computerSelection = Math.random(); //Randomly generate a number                        
+// let userSelection = prompt("rock, paper or scissors?"); //Gets the users selection
+let computerSelection = Math.random(); //Randomly generate a number
+console.log(computerSelection)
 
 //Conditional logic goes here to determine the computers selection
 
