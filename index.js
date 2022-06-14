@@ -31,6 +31,15 @@ let compare=function(selection1,selection2){
                 return `${fps[1]} wins`;
             }
             break;
+        case `${rps[1]}`:
+            if(selection2 === rps[2])
+            {
+                return `${fps[2]} wins`;
+            }else if(selection2 === rps[0])
+            {
+                return `${fps[1]} wins`;
+            }
+            break;
     }
 }
 console.log(compare(userSelection,computerSelection)); //call the function to compare and display result
