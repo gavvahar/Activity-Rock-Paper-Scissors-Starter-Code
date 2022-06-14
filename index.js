@@ -18,6 +18,10 @@ switch(true)
 
 //Function to compare the userSelection and the computerSelection to determine the winner
 let compare=function(selection1,selection2){
-    
+    switch(selection1)
+    {
+        case `${selection2}`:
+            return "The result is a tie";
+    }
 }
 console.log(compare(userSelection,computerSelection)); //call the function to compare and display result
