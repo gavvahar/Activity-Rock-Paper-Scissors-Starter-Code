@@ -1,6 +1,6 @@
-let userSelection = prompt("rock, paper or scissors?"); //Gets the users selection
-let computerSelection = Math.random(); //Randomly generate a number
 let rps = ["rock", "paper", "scissors"];
+let userSelection = prompt(`${fps[0]}, ${fps[1]} or ${fps[2]}?`); //Gets the users selection
+let computerSelection = Math.random(); //Randomly generate a number
 
 //Conditional logic goes here to determine the computers selection
 switch(true)
